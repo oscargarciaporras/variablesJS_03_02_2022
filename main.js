@@ -1,11 +1,17 @@
-// document.getElementById("botonCerrar")
+console.log("Mensaje");
+console.warn("Advertencia");
+console.error("Eroor");
+console.group("Agrupar Mensaje");
 
-//Abrir Ventana
-document.querySelector("#mostrarVentana").addEventListener("click", (e)=>{
-    document.querySelector("#ventana").show();
-})
+    let datos = [
+        {Nombre: "Miguel", Edad: 23},
+        {Nombre: "Raul", Edad:33 },
+        {Nombre: "JuanCarlos", Edad: 36 },
+        {Nombre: "oscar", Edad:29 }
+    ];
+    console.table(datos);
 
-//Cerrar Ventana
-document.querySelector("#botonCerrar").addEventListener("click", (e)=>{
-    document.querySelector("#ventana").close();
-})
+console.groupEnd();
+
+console.log("%c Personalizado", "color:blue; font-family:cursive; font-size: 20px;");
+
