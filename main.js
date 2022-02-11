@@ -1,10 +1,106 @@
+/******Tipo de dato Set***********/
+const date = new Set()
+ data.add( "Oscar");
+data.add("Garcia);
+
+console.log(date);
+
+
+
+
+
+
+
+
+
+
+
+// /*Tipo d datos Maps*/
+// const lista = new Map();
+// lista.set("Nombre", "Oscar");
+// lista.set("aPELLIDO", ["Garcia", "Porras"]);
+// lista.delete("aPELLIDO");
+// console.log(lista);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tipo de dato Objeto*/
+// const informacion = {
+//     personal: {
+//         edad: 29,
+//         nombre: "oscar",
+//         altuta: 1.72
+//     },
+//     vivienda: {
+//         dirrecion: "Calle 105",
+//         pais: "Colombia",
+//         departamento: "Santander",
+//         lan: -7554.545,
+//         lon: 546.468
+//     },
+//     motrar(){
+//         return `${this.personal.nombre} * ${this.personal.edad}`;
+//     }
+};
+// informacion.personal.nombre = "Oscar Libardo Garcia Porras";
+// console.log(informacion.motrar());
+// console.log(informacion);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Tipo de dato null y undefined*/
-let variableExistente = null;
-let variableNoExistente = undefined;
+// let variableExistente = null;
+// let variableNoExistente = undefined;
 
-console.log(typeof(variableExistente));
-console.log(typeof(variableNoExistente));
-
+// console.log(typeof(variableExistente));
+// console.log(typeof(variableNoExistente));
 
 
 
